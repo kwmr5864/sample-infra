@@ -18,6 +18,6 @@ user 'sample' do
   home '/home/sample'
   shell '/bin/bash'
   supports :manage_home => true
-  action: create
+  action :create
 end
 
